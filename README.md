@@ -36,7 +36,7 @@ This project demonstrates how to connect a Python application to a SQL Server da
 
 ## 📜 Key Python Snippet
 
-```python
+python
 server = '192.168.0.20'
 database = 'tws'
 username = 'Vaish22'
@@ -49,3 +49,39 @@ conn_str = (
     f'UID={username};'
     f'PWD={password};'
 )
+
+## 🧰 Tools Used
+
+| Tool       | Role                   |
+|------------|------------------------|
+| Python     | Scripting              |
+| pyodbc     | SQL Server connectivity|
+| SQL Server | Database backend       |
+| GitHub     | Version control        |
+
+---
+
+## 📝 Notes
+
+- `users` table has nullable IDs to simulate data issues  
+- The `year` field is stored as a date string  
+- ODBC Driver used: **17 for SQL Server**
+
+---
+
+## ✅ Conclusion
+
+This project provides a solid foundation for:
+
+- Data connectivity in ETL workflows  
+- Handling real-world structured data  
+- Practicing SQL-Python integration
+
+---
+
+## 👤 Author
+
+**Vaishnavi Bandil**  
+_Data Engineering Intern_  
+GitHub: vaishnavi20042003
+
